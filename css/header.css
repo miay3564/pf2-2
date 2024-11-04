@@ -1,0 +1,58 @@
+header {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  background-color: white;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+header nav.wrap {
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+header nav h1 { 
+  display: block;
+}
+header nav h1 a {
+  display: block;
+  width: 132px;
+  height: 64px;
+  background-image: url(../img/logo.png);
+  font-size: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+header nav ul.gnb {
+  display: flex;
+  column-gap: 120px;
+  height: 100%;
+  align-items: center;
+}
+header nav ul.gnb li {
+  
+}
+header nav ul.gnb li a {  
+  font-size: 18px;
+  color: darkblue;
+  font-weight: 500;
+  transition: 1s;
+}
+header nav ul.gnb li a:hover{
+  color: aqua; 
+}
+header nav ul.gnb li:last-child{
+  background-color: #00A5B1;
+  width: 125px;
+  border-radius: 20px;
+  padding: 8px 0 8px;
+  text-align: center;
+  font-size: 14px;
+}
+header nav ul.gnb li:last-child a{
+  color: white;
+  font-weight: 600;
+}

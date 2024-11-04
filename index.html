@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카페베네</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- 구글 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <!-- slick -->
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.mdAni').slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                dots: true
+            });
+        });
+    </script>
+</head>
+<body>
+<!-- 상단영역 -->
+    <header>
+        <nav class="wrap flex">
+            <h1><a href="" class="block">CAFFEBENE</a></h1>
+            <ul class="gnb flex">
+                <li><a href="" class="block">CAFFEBENE</a></li>
+                <li><a href="" class="block">MENU</a></li>
+                <li><a href="" class="block">STORE</a></li>
+                <li><a href="" class="block">MEMBERSHIP</a></li>
+                <li><a href="" class="block">CONTENTS</a></li>
+                <li><a href="" class="block">가맹문의</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- 타이틀영역 -->
+    <div id="title">
+        <div class="wrap">
+            <ul>
+                <li>
+                    <h2 class="h2T">DELIGHT MOMENT</h2>
+                    <a href="" class="block h5T line">자세히 보기</a>
+                </li>
+                <li>
+                    <h2 class="h2T">FIND YOUR SUMMER COLOR</h2>
+                    <a href="" class="block h5T line">자세히 보기</a>
+                </li>
+                <li>
+                    <h2 class="h2T">HAPPY EAT, <span class="block"></span>TASTE GOOD!</h2>
+                    <a href="" class="block h5T line">자세히 보기</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!-- 메인영역 -->
+    <main>
+        <!-- 메뉴 -->
+        <section id="menu">
+            <div class="wrap">
+                <h2>BEST MENU</h2>
+                <ul class="menuAni">
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/menua.png" alt="아메리카노">
+                                <figcaption>
+                                    <h3>아메리카노</h3>
+                                    <p>카페베네 스페셜티 블렌드로 추출한 <span class="block"></span>에스프레소를 부드럽게 수 있는 커피</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/menus.png" alt="스페니쉬 연유라떼">
+                                <figcaption>
+                                    <h3>스페니쉬 연유라떼</h3>
+                                    <p>달콤한 연유와 부드러운 블렌딩 우유가 <span class="block"></span>조화로운 스페니쉬 연유 라떼
+                                        </p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/menuc.png" alt="초콜릿쿠키 젤라또 프라페노">
+                                <figcaption>
+                                    <h3>초콜릿쿠키 젤라또 프라페노</h3>
+                                    <p>초콜릿 젤라또와 바삭한 쿠키를 더해 <span class="block"></span>초콜릿 맛을 더욱 진하고 시원하게 <span class="block"></span>즐길 수 있는 블렌디드 음료</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/menum.png" alt="얼그레이 밀크티 라떼">
+                                <figcaption>
+                                    <h3>얼그레이 밀크티 라떼</h3>
+                                    <p>베르가못 향을 더한 홍차의 풍미를 <span class="block"></span>부드러운 우유와 함께 즐길 수 있는 음료</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/menup.png" alt="납작복숭아 요거트 프라페노">
+                                <figcaption>
+                                    <h3>납작복숭아 요거트 프라페노</h3>
+                                    <p>달콤한 납작복숭아와 산뜻한 요거트가 <span class="block"></span>어우러진 블렌디드 음료</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="md">
+            <div class="wrap">
+                <h2 class="h4T">New & Best MD</h2>
+                <ul class="mdAni">
+                    <li class="md1">
+                        <a href="" class="block">
+                            <figure>
+                                <img src="img/md1.jpg" alt="베네캣 산책 텀블러 리유저블컵 (473ml)">
+                                <figcaption class="h6T">
+                                    <h3>베네캣 산책 텀블러 리유저블컵 (473ml)</h3>
+                                    <p class="bold">8,800원</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="md2">
+                        <a href="" class="block">
+                            <figure>
+                                <img src="img/md2.jpg" alt="베네캣 홈카페 머그 스텐컵 화이트 (360ml)">
+                                <figcaption class="h6T">
+                                    <h3>베네캣 홈카페 머그 스텐컵 화이트 (360ml)</h3>
+                                    <p class="bold">22,000원</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="md3">
+                        <a href="" class="block">
+                            <figure>
+                                <img src="img/md3.jpg" alt="시그니처 & 에티오피아 디카페인 드립백 커피 [혼합형] [4+4, 8개입]">
+                                <figcaption class="h6T">
+                                    <h3>시그니처 & 에티오피아 디카페인 드립백 커피 [혼합형] [4+4, 8개입]</h3>
+                                    <p class="bold">9,600원</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="md4">
+                        <a href="" class="block">
+                            <figure>
+                                <img src="img/md4.jpg" alt="위드베네캣 홈카페 머그컵 L (520ml)">
+                                <figcaption class="h6T">
+                                    <h3>위드베네캣 홈카페 머그컵 L (520ml)</h3>
+                                    <p class="bold">16,000원</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="md5">
+                        <a href="" class="block">
+                            <figure>
+                                <img src="img/md5.jpg" alt="오로라 잔 & 코스터 & 유리 머들러 선물세트">
+                                <figcaption class="h6T">
+                                    <h3>오로라 잔 & 코스터 & 유리 머들러 선물세트</h3>
+                                    <p class="bold">21,900원</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="md6">
+                        <a href="" class="block">
+                            <figure>
+                                <img src="img/md6.jpg" alt="베네캣 장우산">
+                                <figcaption class="h6T">
+                                    <h3>베네캣 장우산</h3>
+                                    <p class="bold">16,000원</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section></section>
+        <section></section>
+    </main>
+<!-- 하단영역 -->
+    <footer></footer>
+</body>
+</html>
