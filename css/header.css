@@ -5,6 +5,7 @@ header {
   background-color: white;
   padding: 0 20px;
   box-sizing: border-box;
+  z-index: 1;
 }
 header nav.wrap {
   justify-content: space-between;
@@ -28,31 +29,41 @@ header nav h1 a {
 }
 header nav ul.gnb {
   display: flex;
-  column-gap: 120px;
+  column-gap: 100px;
   height: 100%;
   align-items: center;
 }
 header nav ul.gnb li {
   
+  height: 100%;
+  box-sizing: border-box;
 }
 header nav ul.gnb li a {  
   font-size: 18px;
   color: darkblue;
   font-weight: 500;
-  transition: 1s;
+  transition: 0.5s;
+  padding: 10px 15px;
+  height: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
 }
 header nav ul.gnb li a:hover{
-  color: aqua; 
+  color: cadetblue; 
 }
 header nav ul.gnb li:last-child{
   background-color: #00A5B1;
   width: 125px;
   border-radius: 20px;
-  padding: 8px 0 8px;
+  padding: 8px 4px;
   text-align: center;
   font-size: 14px;
+  height: auto;
 }
 header nav ul.gnb li:last-child a{
   color: white;
   font-weight: 600;
+  padding: 0;
+  display: block;
 }
