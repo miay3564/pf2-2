@@ -1,41 +1,41 @@
 #title {
   height: 100%;
 }
-#title .wrap {  
-  width: auto;
+#title .tt {  
+  width: 100%;
   height: 100%;
 }
-#title .wrap>ul {  
+#title .tt>ul {  
   height: 100%;
   overflow: hidden;
 }
-#title .wrap>ul .slick-prev, #title .wrap>ul .slick-next{
+#title .tt>ul .slick-prev, #title .tt>ul .slick-next{
   width: 60px;
   height: 60px;
 }
-#title .wrap>ul .slick-prev{
+#title .tt>ul .slick-prev{
   left: 30px;
   z-index: 1;
   transform: translateY(60%);
 }
-#title .wrap>ul .slick-prev::before{
+#title .tt>ul .slick-prev::before{
   background-image: url(../img/prev_b.svg);
 }
-#title .wrap>ul .slick-prev:hover::before{
+#title .tt>ul .slick-prev:hover::before{
   transform: translateX(20px);
 }
-#title .wrap>ul .slick-next{
+#title .tt>ul .slick-next{
   right: 30px;
   z-index: 1;
   transform: translateY(60%);
 }
-#title .wrap>ul .slick-next::before{  
+#title .tt>ul .slick-next::before{  
   background-image: url(../img/next_b.svg);
 }
-#title .wrap>ul .slick-next:hover::before{
+#title .tt>ul .slick-next:hover::before{
   transform: translateX(-20px);
 }
-#title .wrap>ul .slick-prev::before, #title .wrap>ul .slick-next::before{
+#title .tt>ul .slick-prev::before, #title .tt>ul .slick-next::before{
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -45,10 +45,10 @@
   display: block;
   transition: 0.5s;
 }
-#title .wrap>ul div{
+#title .tt>ul div{
   height: 100%;
 }
-#title .wrap>ul li.t {
+#title .tt>ul li.t {
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,21 +58,21 @@
   flex-direction: column;
   justify-content: center;
 }
-#title .wrap ul li.t1{
+#title .tt ul li.t1{
   background-image: url(../img/title9.jpg);
 }
-#title .wrap ul li.t2{
+#title .tt ul li.t2{
   background-image: url(../img/title10.jpg);
 }
-#title .wrap ul li.t3{
+#title .tt ul li.t3{
   background-image: url(../img/title11.jpg);
 }
-#title .wrap ul li h2 {
+#title .tt ul li h2 {
  display: none;
 }
-#title .wrap>ul li.t a {
+#title .tt>ul li.t a {
   display: none;
 }
-#title .wrap>ul .slick-dots{
+#title .tt>ul .slick-dots{
   bottom: 30px;
 }

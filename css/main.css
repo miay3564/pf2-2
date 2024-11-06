@@ -12,6 +12,7 @@ main #menu .wrap {
   justify-content: center;
   align-items: center;
   height: 100%;
+  max-width: 1440px;
 }
 main #menu .wrap h2 {
   font-size: 36px;
@@ -72,6 +73,7 @@ main #menu .wrap ul li a figure figcaption p span {
   height: 100%;
   box-sizing: border-box;
   padding: 130px;
+  max-width: 1440px;
 }
 #md .wrap h2 {
   text-align: center;
@@ -136,6 +138,7 @@ main #menu .wrap ul li a figure figcaption p span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 1440px;
 }
 #contents .wrap h2 {
   font-size: 36px;

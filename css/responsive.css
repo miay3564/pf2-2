@@ -1,0 +1,91 @@
+@media screen and (max-width:768px){
+/*  common  */
+  
+/*  header  */
+  header{
+  height: 80px;
+  }
+  header nav > ul.gnb {
+    display: none;
+  }
+  header nav h1 a{
+    width: calc(132px * 0.8)
+  }
+  .ham{
+    display: flex;
+    color: darkblue;
+    transform: scale(0.8);
+  }
+/*  타이틀영역  */
+  #title .tt > ul .slick-prev::before, #title .tt > ul .slick-next::before{
+  width: 30px;
+  height: 30px;
+  }
+  #title .tt > ul .slick-prev::before{
+    transform: translate(-50%, -140%);
+  }
+  #title .tt > ul .slick-next::before{
+    transform: translate(155%, -145%);
+  }
+  #title .tt ul li.t3{
+    background-position: left;
+  }
+/* menu */
+  main #menu{
+    height: auto;
+  }
+  main #menu .wrap{
+    padding: 0 20px;
+  }
+  main #menu .wrap h2{
+    padding: 60px 0 40px 0;
+    font-size: calc(36px * 0.8);
+    line-height: 2;
+  }
+  main #menu .wrap ul{
+    display: initial;
+  }
+  main #menu .wrap ul li{
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+/*  md  */
+  #md .wrap{
+  padding: 0 20px;
+  }
+  #md .wrap h2{
+    padding: 85px 5px 65px 5px;
+    font-size: calc(36px * 0.8);
+  }
+  
+/* contents */
+  #contents{
+    height: auto;
+  }
+  #contents .wrap{
+    height: auto;
+  }
+  #contents .wrap h2{
+    padding: 60px 0 20px 0;
+    font-size: calc(36px * 0.8);
+    line-height: 2;
+  }
+  #contents .wrap div.a1{
+    display: initial;
+    margin: 10px 0; 
+  }
+  #contents .wrap div.a1 article{
+    margin-top: 20px;
+  }
+/*  가맹문의  */
+  #caffebene{
+    height: auto;
+  }
+  
+/*  하단  */
+  footer{
+    display: none;
+  }
+  
+/*  768 end  */
+}
