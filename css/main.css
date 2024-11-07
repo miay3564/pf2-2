@@ -228,13 +228,14 @@ main #menu .wrap ul li a figure figcaption p span {
   height: 535.217px;
 }
 #caffebene .caf{
-  
+  width: 100%;
+  height: auto;
 }
 #caffebene .caf a{
-  
+  width: fit-content;
+  display: block;
 }
 #caffebene .caf a img{ 
   width: 100%;
   height: auto;
-  position: absolute;
 }
